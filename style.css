@@ -14,29 +14,45 @@ a {
 }
 .hero {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #f9faf8;
     background-color: #1f2937;
 }
+.subsection-content {
+    text-align: left;
+    flex-direction: column;
+}
+.subsection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
-h1 {
+.subsection img {
+    margin-left: 20px; /* Adds some space between the text and the image */
+}
+
+.hero img {
+    padding: 50px 0 0 50px;
+    width: 200px;
+    height: 300px;
+}
+.hero h1 {
+    color: #f9faf8;
     font-size: 48px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: extra-bold;
+    text-align: left;
+    padding: 40px;
+    padding-left: 0px;
+    text-wrap: pretty;
 }
-/* This needs to go on the left side */
-
-
-/* p {
-This is where P will be styled.
-    {
-*/
-
-
-.dog {
-    margin-left: 20px;
-    height: 100px;
-    width: 100px;
+.hero p {
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: extra-bold;
+    text-align: left;
+    padding: 40px;
+    padding-left: 0px;
+    text-wrap: pretty;
 }
-/* I need to make this go on the right side */
