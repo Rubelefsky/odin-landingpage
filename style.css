@@ -1,0 +1,42 @@
+a {
+    color: white;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    color: white;
+    background-color: #1f2937;
+    text-align: right;
+}
+.nav a {
+    margin-right: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: extra-bold;
+}
+/* This needs to go on the left side */
+
+
+/* p {
+This is where P will be styled.
+    {
+*/
+
+
+.dog {
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+}
+/* I need to make this go on the right side */
