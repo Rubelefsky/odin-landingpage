@@ -1,4 +1,13 @@
 * {
-    color: blue;
     font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    background-color: white;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+}
+li {
+    display: inline;
 }
