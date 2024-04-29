@@ -48,7 +48,11 @@ button {
     border-radius: 15px;
 }
 
-
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
 
 
 
