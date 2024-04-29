@@ -1,6 +1,11 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 15;
+}
 .header {
     background-color: #1f2937;
     color: white;
@@ -19,28 +24,33 @@ li {
     background-color: #1f2937;
     color: white;
     padding: 10px 0;
-    text-align: left;
+    flex-direction:row;
+    display: flex;
+}
 
+.hero h1, p{
+    text-align: center;
+    padding: 10px;
 }
-.hero img {
-    width: 50px;
-    height: 50px;
-}
+
+
 button {
     background-color: #3882f6;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
+    align-items: left;
 }
 
 .boxes {
     display: flex;
     justify-content: space-around;
     
+    
 }
 .boxes > div {
     width: 20%; /* Adjust as needed */
-    border: 5px solid blue; /* Adjust as needed */
+    border: 2px solid blue; /* Adjust as needed */
     padding: 10px; /* Adjust as needed */
     box-sizing: border-box;
     align-content: center;
@@ -48,13 +58,27 @@ button {
     border-radius: 15px;
 }
 
-.flex-container {
+.boxex {
     display: flex;
     justify-content: space-around;
     
 }
 
+.quotebox {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
 
+.quotebox h3 {
+    text-align: center;
+}
+.quotebox h4 {
+    text-align: right;
+    padding-right: 150px;
+}
 
 
 footer {
