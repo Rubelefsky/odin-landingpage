@@ -36,11 +36,16 @@ button {
 .boxes {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
-    border-radius: 10px;
-    border-style: solid;
-    color: blue;
+    
+}
+.boxes > div {
+    width: 20%; /* Adjust as needed */
+    border: 5px solid blue; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+    box-sizing: border-box;
     align-content: center;
+    text-align: center;
+    border-radius: 15px;
 }
 
 
